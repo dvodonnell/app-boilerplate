@@ -84,5 +84,14 @@
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
 
+<script type="text/javascript">
+    window['app'] = {
+        'assetURL' : '<?=base_url('')?>'
+    };
+</script>
+<script type="text/javascript" src="<?=base_url('vendor/requirejs/require.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('js/app.js')?>"></script>
+<!--scripts-->
+
 </body>
 </html>
