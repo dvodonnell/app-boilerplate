@@ -22,6 +22,3 @@ class Index extends CI_Controller {
 		$this->load->view('init');
 	}
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
